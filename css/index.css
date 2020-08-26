@@ -1,0 +1,589 @@
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+header {
+  background-color: #ff4f81;
+  color: white;
+}
+header .row .right i {
+  font-size: 15px;
+  padding: 8px 10px;
+  background-color: #343a40;
+  margin-left: 5px;
+  border: 1px solid transparent;
+  transition: all 0.5s;
+}
+header .row .right i:hover {
+  color: white;
+  background-color: #ff4f81;
+  border: 1px solid white;
+}
+
+nav .nav-brand--logo p {
+  font-size: 0.8rem;
+  color: #ff4f81;
+  margin-top: -5px;
+}
+nav .nav__content .navbar-nav-menu {
+  margin-top: -30px;
+}
+nav .nav__content .navbar-nav-menu .nav-item {
+  margin-left: 20px;
+}
+nav .nav__content .navbar-nav-menu .nav-item:hover .nav-link {
+  color: #ff4f81;
+}
+nav .nav__content .navbar-nav-menu .nav-item:hover .nav-item-line {
+  width: 100%;
+}
+nav .nav__content .navbar-nav-menu .nav-item .nav-link {
+  font-weight: bold;
+  color: #282828;
+  transition: all 0.5s;
+}
+nav .nav__content .navbar-nav-menu .nav-item .nav-item-line {
+  width: 0;
+  height: 2px;
+  background-color: #ff4f81;
+  transition: all 0.5s;
+}
+nav .nav__content .navbar-nav-menu .active .nav-link {
+  color: #ff4f81;
+}
+nav .nav__content .navbar-nav-menu .active .nav-item-line {
+  width: 100%;
+}
+
+.carousel-indicators--config {
+  bottom: 20%;
+}
+
+.carousel-inner .carousel-item .carousel-caption--config {
+  bottom: 30%;
+}
+.carousel-inner .carousel-item .carousel-caption--config h1 {
+  font-weight: normal;
+  font-size: 3.3em;
+}
+.carousel-inner .carousel-item .carousel-caption--config p {
+  letter-spacing: 3px;
+  font-size: 1.2em;
+  line-height: 1.7em;
+  font-weight: 300;
+  color: #fff;
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+.carousel-inner .carousel-item .carousel-caption--config .btn--readMore {
+  cursor: pointer;
+  border-radius: 0;
+  transition: all 0.5s;
+}
+.carousel-inner .carousel-item .carousel-caption--config .btn--readMore:hover {
+  background-color: #ff4f81;
+  border: 1px solid transparent;
+  color: white;
+}
+
+.modal .modal-header--carousel h2 {
+  color: #ff4f81;
+  font-weight: 600;
+  font-size: 29px;
+}
+.modal .modal-body--carousel .modal-text {
+  font-size: 0.9rem;
+  color: #777;
+  padding: 20px 0;
+  line-height: 1.8rem;
+}
+
+.welcomeEducation h2 {
+  font-size: 40px;
+  color: #ff4f81;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+}
+.welcomeEducation span {
+  font-size: 17px;
+  letter-spacing: 4px;
+  color: black;
+  font-weight: 500;
+}
+.welcomeEducation .welcomeLine {
+  width: 100px;
+  height: 2px;
+  background-color: black;
+}
+.welcomeEducation p {
+  font-size: 15px;
+  width: 80%;
+  margin: 0 auto;
+  letter-spacing: 1px;
+  line-height: 1.8em;
+  color: #999;
+}
+
+.education .eduction-content i {
+  font-size: 30px;
+}
+.education .eduction-content h3 {
+  font-size: 1.8em;
+  font-weight: 600;
+  color: #ff4f81;
+}
+.education .eduction-content h4 {
+  font-size: 1em;
+  font-weight: 600;
+  color: black;
+  text-transform: uppercase;
+}
+.education .eduction-content p {
+  font-size: 15px;
+  line-height: 1.8em;
+  color: #999;
+  letter-spacing: 0.5px;
+}
+
+/**stat**/
+.stats {
+  min-height: 400px;
+  background-image: url(../images/banner2.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.stats .statContent h2 {
+  font-size: 40px;
+  color: #ff4f81;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+}
+.stats .statContent span {
+  font-size: 17px;
+  letter-spacing: 4px;
+  color: white;
+  font-weight: 500;
+}
+.stats .statContent .statLine {
+  width: 100px;
+  height: 2px;
+  background-color: black;
+}
+.stats .stat-detail {
+  text-align: center;
+  color: white;
+}
+.stats .stat-detail i {
+  font-size: 40px;
+}
+.stats .stat-detail h3 {
+  font-size: 25px;
+  color: #ff4f81;
+  margin-top: 20px;
+}
+.stats .stat-detail p {
+  font-size: 50px;
+}
+
+.offer .offer-section {
+  padding: 3rem 15px;
+}
+.offer .offer-section .offerContent h2 {
+  font-size: 40px;
+  color: #ff4f81;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+}
+.offer .offer-section .offerContent span {
+  font-size: 17px;
+  letter-spacing: 4px;
+  color: black;
+  font-weight: 500;
+}
+.offer .offer-section .offerContent .offerLine {
+  width: 100px;
+  height: 2px;
+  background-color: black;
+  margin: 20px 0 35px;
+}
+.offer .offer-section .offer-item {
+  padding: 1.2rem 1rem;
+  margin-bottom: 30px;
+  text-align: center;
+  box-shadow: 0px 0px 4px 2px #aaa;
+  transition: all 0.5s;
+}
+.offer .offer-section .offer-item:hover {
+  background-color: #12ccc3;
+}
+.offer .offer-section .offer-item i {
+  font-size: 40px;
+  color: #ff4f81;
+}
+.offer .offer-section .offer-item h3 {
+  font-size: 20px;
+  color: #212121;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+.offer .offer-section .offer-item p {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  color: #6b6b6b;
+}
+
+.testimonial {
+  min-height: 500px;
+  background-image: url(../images/banner3.jpg);
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+  padding: 3rem;
+}
+.testimonial .testimonialContent h2 {
+  font-size: 40px;
+  color: #ff4f81;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+}
+.testimonial .testimonialContent span {
+  font-size: 17px;
+  letter-spacing: 4px;
+  color: white;
+  font-weight: 500;
+}
+.testimonial .testimonialContent .testimonialLine {
+  width: 100px;
+  margin: 20px 0 30px;
+  height: 1px;
+  background-color: black;
+}
+.testimonial .testimonialSlider {
+  height: 300px;
+  background-color: rgba(0, 0, 0, 0.479);
+  box-shadow: 0px 0px 2px 1px #8e8e8e;
+  padding: 30px 30px;
+}
+.testimonial .testimonialSlider .item_box {
+  background-color: rgba(0, 0, 0, 0.575);
+  padding: 10px 15px;
+  color: white;
+  border-radius: 5px;
+  position: relative;
+  margin-bottom: 10px;
+}
+.testimonial .testimonialSlider .item_box::after {
+  content: "";
+  border-top: 9px solid rgba(0, 0, 0, 0.575);
+  border-left: 9px solid transparent;
+  border-right: 9px solid transparent;
+  position: absolute;
+  bottom: -9px;
+  left: 27%;
+}
+.testimonial .testimonialSlider .item_user {
+  margin-left: 23%;
+  display: flex;
+  margin-top: 30px;
+}
+.testimonial .testimonialSlider .item_user img {
+  width: 55px;
+  height: 55px;
+}
+.testimonial .testimonialSlider .item_user div {
+  margin-left: 10px;
+}
+.testimonial .testimonialSlider .item_user div p {
+  margin-bottom: 0;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: white;
+}
+.testimonial .testimonialSlider .item_user div span {
+  color: #ff4f81;
+  font-size: 0.8em;
+}
+
+.owl-theme .owl-nav.disabled + .owl-dots {
+  margin-top: 30px;
+}
+
+.owl-theme--pink .owl-dots .owl-dot span {
+  background-color: #ff4f81;
+  opacity: 0.5;
+}
+.owl-theme--pink .owl-dots .owl-dot span:hover {
+  background-color: #ff4f81;
+  opacity: 1;
+}
+
+.owl-theme--pink .owl-dots .owl-dot.active span {
+  background-color: #ff4f81;
+  opacity: 1;
+}
+
+.news {
+  padding: 3rem;
+}
+.news .newsContent h2 {
+  font-size: 40px;
+  color: #ff4f81;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+}
+.news .newsContent span {
+  font-size: 17px;
+  letter-spacing: 4px;
+  color: black;
+  font-weight: 500;
+}
+.news .newsContent .newsLine {
+  width: 100px;
+  margin: 20px 0 40px;
+  height: 2px;
+  background-color: black;
+}
+.news .new-img {
+  padding: 0 20px;
+}
+.news .new-img img {
+  border: solid #dedede;
+}
+.news .new-info {
+  padding: 0 20px;
+}
+.news .new-info a {
+  font-size: 20px;
+  color: black;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+.news .new-info a:hover {
+  color: #ff4f81;
+}
+.news .new-info h5 {
+  color: #ff4f81;
+  font-size: 1em;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin: 15px 0;
+}
+.news .new-info p {
+  color: #999999;
+  line-height: 1.8em;
+  font-size: 0.9em;
+}
+.news .spacing {
+  height: 4em;
+  width: 100%;
+}
+
+footer .footer-detail {
+  padding: 5em;
+  background-color: #141415;
+}
+footer .footer-detail .footer-item {
+  font-size: 0.9em;
+  letter-spacing: 1px;
+  color: #8b8b96;
+}
+footer .footer-detail .footer-item h2 {
+  font-size: 1.5em;
+  color: #ff4f81;
+  font-weight: 600;
+  margin-bottom: 1.8em;
+}
+footer .footer-detail .item1 p {
+  line-height: 1.8em;
+}
+footer .footer-detail .item2 .latest-item {
+  line-height: 2em;
+}
+footer .footer-detail .item2 .latest-item i {
+  color: #ff4f81;
+}
+footer .footer-detail .item2 .latest-item a {
+  text-decoration: none;
+  color: #8b8b96;
+  transition: all 0.5s;
+}
+footer .footer-detail .item2 .latest-item a:hover {
+  color: white;
+}
+footer .footer-detail .item3 .contact-info-item i {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #4b4b50;
+  line-height: 30px;
+  text-align: center;
+  color: white;
+  margin-right: 1em;
+}
+footer .footer-detail .spacing {
+  margin-top: 20px;
+}
+footer .footer-detail .spacing .footer-title h2 {
+  font-size: 1.5em;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #ff4f81;
+}
+footer .footer-detail .spacing .footer-form input {
+  width: 70%;
+  padding: 14px;
+  outline: none;
+  margin-right: 10px;
+}
+footer .footer-detail .spacing .footer-form input::-ms-input-placeholder {
+  font-size: 0.9em;
+  letter-spacing: 1px;
+  color: #8b8b96;
+}
+footer .footer-detail .spacing .footer-form input::placeholder {
+  font-size: 0.9em;
+  letter-spacing: 1px;
+  color: #8b8b96;
+}
+footer .footer-detail .spacing .footer-form button {
+  width: 20%;
+  padding: 14px 0;
+  background-color: #ff4f81;
+  cursor: pointer;
+  font-size: 1em;
+  text-transform: uppercase;
+  color: white;
+  border: none;
+  transition: all 0.5s;
+  border-radius: 0;
+  text-align: center;
+}
+footer .footer-detail .spacing .footer-form button:hover {
+  background-color: #ec1955;
+}
+footer .copy-right {
+  background-color: #0f0f10;
+  padding: 1em 0;
+  text-align: center;
+  margin-bottom: 50px;
+}
+footer .copy-right p {
+  font-size: 14px;
+  letter-spacing: 2px;
+  color: white;
+  margin-bottom: 0;
+}
+footer .copy-right p a {
+  color: #ff4f81;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+footer .copy-right p a:hover {
+  color: white;
+}
+
+/**Reponsive **/
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .nav-brand--logo h1 {
+    font-size: 30px;
+  }
+
+  .navbar-nav-menu .nav-item {
+    margin-left: 10px;
+  }
+  .navbar-nav-menu .nav-item .nav-link {
+    font-size: 0.9rem;
+  }
+}
+@media screen and (min-width: 770px) and (max-width: 925px) {
+  .carousel-inner .carousel-item .carousel-caption--config {
+    bottom: 30%;
+  }
+  .carousel-inner .carousel-item .carousel-caption--config h1 {
+    font-weight: normal;
+    font-size: 3em;
+  }
+  .carousel-inner .carousel-item .carousel-caption--config p {
+    letter-spacing: 2px;
+    font-size: 0.9em;
+    line-height: 1.3em;
+    margin-bottom: 10px;
+  }
+
+  .carousel-indicators--config {
+    bottom: 10%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .carousel-inner .carousel-item .carousel-caption--config {
+    bottom: 20%;
+  }
+  .carousel-inner .carousel-item .carousel-caption--config h1 {
+    font-weight: normal;
+    font-size: 2.2em;
+  }
+  .carousel-inner .carousel-item .carousel-caption--config p {
+    letter-spacing: 1px;
+    font-size: 0.8em;
+    line-height: 1.3em;
+    margin-bottom: 5px;
+  }
+
+  .carousel-indicators--config {
+    bottom: 5%;
+  }
+
+  .education .eduction-content h3 {
+    font-size: 1.3em;
+    font-weight: 500;
+  }
+  .education .eduction-content h4 {
+    font-size: 0.9em;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .education .eduction-content p {
+    font-size: 13px;
+    line-height: 1.5em;
+  }
+}
+@media screen and (max-width: 576px) {
+  .carousel-inner .carousel-item .carousel-caption--config {
+    bottom: 10%;
+  }
+  .carousel-inner .carousel-item .carousel-caption--config h1 {
+    font-weight: normal;
+    font-size: 1.5em;
+  }
+  .carousel-inner .carousel-item .carousel-caption--config p {
+    letter-spacing: 2px;
+    font-size: 0.7em;
+    line-height: 1.3em;
+    margin-bottom: 0;
+  }
+
+  .carousel-indicators--config {
+    bottom: 0%;
+  }
+
+  .new-img img {
+    margin-bottom: 10px;
+  }
+
+  .spacing {
+    height: 2em;
+  }
+}
+@media screen and (max-width: 1270) {
+  footer .footer-detail .spacing .footer-title h2 {
+    font-size: 1.2em;
+  }
+}
